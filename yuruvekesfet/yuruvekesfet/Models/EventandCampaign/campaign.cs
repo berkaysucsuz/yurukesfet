@@ -13,6 +13,6 @@ namespace yuruvekesfet.Models.EventandCampaign
         public DateTime startAt { get; set; }
         public DateTime endAt { get; set; }
         public DateTime createdAt { get; set; }
-        public DateTime updateAt { get; set; }
+        public DateTime updatedAt { get; set; }
 }
 }

@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -111,6 +112,19 @@
     <Compile Include="Models\Common\file.cs" />
     <Compile Include="Models\Common\log.cs" />
     <Compile Include="Models\Common\template.cs" />
+    <Compile Include="Models\EventandCampaign\campaign.cs" />
+    <Compile Include="Models\EventandCampaign\event.cs" />
+    <Compile Include="Models\EventandCampaign\rule.cs" />
+    <Compile Include="Models\EventandCampaign\rule_app.cs" />
+    <Compile Include="Models\EventandCampaign\rule_beacon_category.cs" />
+    <Compile Include="Models\EventandCampaign\rule_proximity.cs" />
+    <Compile Include="Models\EventandCampaign\rule_transition.cs" />
+    <Compile Include="Models\Oauth2\oauth2_access_token.cs" />
+    <Compile Include="Models\Oauth2\oauth2_client.cs" />
+    <Compile Include="Models\Oauth2\oauth2_jti.cs" />
+    <Compile Include="Models\Oauth2\oauth2_public_key.cs" />
+    <Compile Include="Models\Oauth2\oauth2_scope_authorization_code.cs" />
+    <Compile Include="Models\Oauth2\oauth2_scope_client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -126,10 +140,8 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
-    <Folder Include="Models\EventandCampaign\" />
     <Folder Include="Models\GIS\" />
     <Folder Include="Models\IndoorMap\" />
-    <Folder Include="Models\Oauth2\" />
     <Folder Include="Models\User\" />
   </ItemGroup>
   <PropertyGroup>

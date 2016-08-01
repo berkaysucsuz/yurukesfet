@@ -12,7 +12,7 @@ namespace yuruvekesfet.Models.EventandCampaign
         public int template_id { get; set; }
         public string kind { get; set; }
         public DateTime createdAt { get; set; }
-        public DateTime updateAt { get; set; }
+        public DateTime updatedAt { get; set; }
         public string type { get; set; }
         public string _text { get; set; }
         public int delay { get; set; }
